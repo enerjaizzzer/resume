@@ -1,0 +1,115 @@
+@media screen and (max-width: 1280px) {
+  .header__logo {
+    width: 25%;
+  }
+  .header__about {
+    flex-direction: column;
+    width: 25%;
+  }
+  .header__nav {
+    width: 50%;
+  }
+  .container__home--about-me, .container__home--my-pride, .container__home--get-into-contact {
+    width: 30%;
+  }
+  .container__skills--icons img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__about {
+    display: none;
+  }
+  .header__logo {
+    width: 40%;
+  }
+  .header__nav {
+    width: 60%;
+  }
+  .container__home {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container__home--about-me, .container__home--my-pride, .container__home--get-into-contact {
+    width: 90%;
+    margin: 30px 10px 10px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: 500px;
+  }
+  .header__logo {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .header__about {
+    width: 100%;
+    display: flex;
+  }
+  .header__about--name {
+    margin-bottom: 25px;
+  }
+  .header__nav {
+    width: 100%;
+  }
+  .container__skills--icons img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 30px;
+  }
+  .works {
+    width: 90%;
+  }
+  .container__works--image {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .list {
+    margin: 0 5px 0 5px;
+    font-size: 16px;
+  }
+  .container__skills--title {
+    font-size: 24px;
+  }
+  .container__skills--icons img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 20px;
+  }
+  .works {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__works--description {
+    justify-content: center;
+    align-items: center;
+  }
+  .container__contact {
+    font-size: 28px;
+    margin: 30px;
+  }
+  .footer {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .list {
+    margin: 0 2px 0 2px;
+    font-size: 14px;
+  }
+  .container__contact {
+    font-size: 24px;
+  }
+}

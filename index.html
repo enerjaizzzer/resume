@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./media.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <title>Resume</title>
+</head>
+
+<body class="general">
+  <header id="home" class="header">
+
+    <div class="header__logo">
+      <h1><span>[ </span>enerjaizzzer<span> ]</span></h1>
+    </div>
+
+    <div class="header__about">
+      <img class="header__about--photo" src="./img/photo.jpg" alt="">
+      <h2 class="header__about--name">Aleksandr Liakhovets</h2>
+    </div>
+
+    <nav class="header__nav">
+      <a class="header__nav--home list" href="#">HOME</a></li>
+      <a class="header__nav--skills list" href="#skills">SKILLS</a></li>
+      <a class="header__nav--works list" href="#works">WORKS</a></li>
+      <a class="header__nav--contact list" href="#contact">CONTACT</a></li>
+    </nav>
+
+  </header>
+
+  <main class="container">
+
+    <div class="container__home">
+      <div class="container__home--about-me">
+        <h3>ABOUT ME</h3>
+        <p>Programming is my life. Since childhood, I love the exact sciences, which is why now my profession is a
+          programmer. It is so beautiful when work brings so much pleasure.</p>
+      </div>
+      <div class="container__home--my-pride">
+        <h3>MY PRIDE</h3>
+        <p>This school has given me everything I know now. I really enjoyed learning in EPAM. Specialists of the highest
+          level, pleasant atmosphere and a huge load. At school, I made many wonderful acquaintances and discovered new
+          opportunities. This certificate for me is not just an indicator of my skills, but also a large part of my
+          life.</p>
+      </div>
+      <div class="container__home--get-into-contact">
+        <h3>GET INTO CONTACT WITH ME</h3>
+        <p>If you have an interesting project, you can contact me and offer a job. <br>
+          <span>my email: </span>enerjaizzzer@gmail.com<br>
+          <span>my LinkedIn: </span><a href="https://www.linkedin.com/in/aleksandr-liakhovets-41122218a/">here</a><br>
+          <span>my number is: </span>+375(44)563-00-05
+        </p>
+      </div>
+    </div>
+
+    <div id="skills" class="container__skills">
+      <h3 class="container__skills--title">SKILLS</h3>
+      <div class="container__skills--icons">
+        <img src="./img/icons/javaScript.png" alt="">
+        <img src="./img/icons/json.png" alt="">
+        <img src="./img/icons/bem.gif" alt="">
+        <img src="./img/icons/bootstrap.jpg" alt="">
+        <img src="./img/icons/css.png" alt="">
+        <img src="./img/icons/html.png" alt="">
+        <img src="./img/icons/git.png" alt="">
+        <img src="./img/icons/mvc.png" alt="">
+        <img src="./img/icons/node.png" alt="">
+        <img src="./img/icons/react.png" alt="">
+        <img src="./img/icons/redux.png" alt="">
+        <img src="./img/icons/sass.png" alt="">
+      </div>
+    </div>
+
+    <div id="works" class="container__works">
+      <a class="works" href="https://enerjaizzzer.github.io/youtube-client/">
+        <img class="container__works--image" src="./img/youTube.png" alt="">
+        <div class="container__works--description">
+          <h3 class="container__works--title">YouTube-client</h3>
+          <p class="container__works--text">My first application. Here is the implementation of work with google-API.
+            When you enter in the search box will be searched for all videos from youTube. The name of the video, the
+            name of the channel, a description and the number of views are displayed on the screen. And when you click,
+            you will be redirected to YouTube, where you can watch this video</p>
+        </div>
+      </a>
+      <a class="works" href="https://enerjaizzzer.github.io/piskel-clone/">
+        <img class="container__works--image" src="./img/piskel.jpg" alt="">
+        <div class="container__works--description">
+          <h3 class="container__works--title">Piskel-clone</h3>
+          <p class="container__works--text">A very large project, which implemented the functionality of a graphic
+            editor in pixel style. Through this web application you can create interesting pixel animations, upload them
+            to the GIF. In this application, a modular approach is implemented MVC. The entire application is written in
+            vanila javascript.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="container__contact">
+      <h3 class="container__contact--title">CONTACT</h3>
+      <a href="mailto:enerjaizzzer@gmail.com">enerjaizzzer@gmail.com</a>
+      <a href="https://www.linkedin.com/in/aleksandr-liakhovets-41122218a/">LinkedIn</a>
+      <a href="tel:+375445630005">+375(44)563-00-05</a>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>made by enerjaizzzer in 2019</p>
+  </footer>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
